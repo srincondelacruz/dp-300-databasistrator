@@ -82,6 +82,10 @@ Log in to Azure and check if you have an existing Azure SQL Server instance runn
     **Note:** This feature is in preview.
 
 1. Select the SQL Server admin user name and enter the password or your Microsoft Entra credentials if assigned to connect to the database.
+    - **Server name:** &lt;_paste your Azure SQL Database server name here_&gt;
+    - **Authentication:** SQL Server Authentication
+    - **Server admin login:** Your Azure SQL Database server admin login
+    - **Password:** Your Azure SQL Database server admin password
 
 1. In **Query 1**, type the following query, and select **Run**:
 
