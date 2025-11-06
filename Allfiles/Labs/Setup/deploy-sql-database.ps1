@@ -1,6 +1,6 @@
 param (
     [string]$rgName = "contoso-rg",  # Can be a full name or a prefix
-    [string]$location = "westus2",
+    [string]$location = "spaincentral",
     [string]$sqlAdminPw = $null # Optional, if not provided, a secure one will be generated
 )
 
